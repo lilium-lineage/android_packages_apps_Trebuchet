@@ -418,15 +418,6 @@ android_library {
     },
 }
 
-// Extra privileged permission whitelist for Launcher3 app.
-prebuilt_etc {
-    name: "privapp_whitelist_com.android.launcher3-extra",
-    system_ext_specific: true,
-    sub_dir: "permissions",
-    src: "com.android.launcher3-extra.xml",
-    filename_from_src: true,
-}
-
 //
 // Build rule for Launcher3 app.
 //
